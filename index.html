@@ -1,0 +1,168 @@
+  <!DOCTYPE html>
+<html lang ="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi hoja de vida</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <h1>Hoja de vida</h1>
+     <h1>Javier Vera Ramirez</h1>
+     <h2>+57 3238295230 | veraadsi123@gmail.com | <a href="https://www.linkedin.com/feed/">www.linkedin</a> | Colombia</h2> 
+      
+     <img src="images/javiervera1.jpg" alt="Foto de Vera" width="10%" height="10%">
+     <b> texto en negrilla con b</b><br>
+     <strong> texto en negrilla con importancia semántica/m para el navegador</strong>
+
+     <nav>  <!-- para crear barra izquierda-->
+         <ol>
+            <li><a href="#acerca">Acerca de mi</a></li>
+            <li><a href="#perfil">Perfil Profesional</a></li>
+            <li><a href="#experiencia">Experiencia Laboral</a></li>
+            <li><a href="#formacion">Formación Académica</a></li>
+            <li><a href="#contacto">Contáctame</a></li>
+         </ol> 
+      </nav>    
+    <section id="acerca">
+        <h2>Acerca de mi</h2>
+        <p>
+        Soy Javier Vera Ramirez, un profesional con experiencia en diversas áreas laborales.
+        Me considero una persona polifacética, abierta al aprendizaje continuo y a la adaptación
+        al cambio. He trabajado como administrador de panadería, panadero y auxiliar en cocina,
+        donde he desarrollado habilidades en preparación de alimentos, control de calidad y
+        trabajo en equipo. También tengo experiencia como taxista, lo que me ha permitido mejorar
+        mis habilidades de atención al cliente y comunicación asertiva.
+        </p>
+        <hr>
+    </section>
+    <section id="perfil">
+        <h2>Perfil Profesional</h2>
+        <p>
+            Soy un profesional polifacético y de actitud abierta con experiencia en diversos entornos
+            laborales, lo que me facilita el aprendizaje continuo y la adaptación al cambio.
+            Como administrador de panadería, panadero y auxiliar en cocina, he desarrollado habilidades
+            en preparación de alimentos, control de calidad, trabajo en equipo en ambientes dinámicos
+            y manejo de dinero. Como taxista, atención al cliente, escucha, comunicación asertiva y
+            manejo responsable del vehículo. Además, poseo conocimientos en sistemas, herramientas
+            ofimáticas y digitación de textos, lo que me permite integrar habilidades técnicas con una
+            actitud proactiva y orientada a resultados.
+        </p>
+    </section>
+    <hr>
+    <section id="experiencia">
+        <h2>Experiencia Laboral</h2>
+        <p>
+            He trabajado en diferentes roles que me han permitido adquirir una amplia gama de habilidades.
+            Mi experiencia incluye:
+        </p>
+        <ul>
+            <li>Administrador de panadería: gestión de inventarios, atención al cliente y control de calidad.</li>
+            <li>Panadero: preparación de productos de panadería con enfoque en la calidad y presentación.</li>
+            <li>Auxiliar en cocina: apoyo en la preparación de alimentos y mantenimiento de estándares de higiene.</li>
+            <li>Taxista: atención al cliente, manejo responsable del vehículo y comunicación efectiva.</li>
+        </ul>
+        </section>
+  
+ 
+  <hr>      <!-- etiq para crear linea horizontal-->
+  <section id="formacion">
+  <h2> Formación académica</h2>
+  
+<table>
+     <tr>
+       <th>Institución</th>
+       <th>Título Obtenido</th>
+       <th>Año</th>
+     </tr>
+     <tr>
+       <td>SENA</td>
+       <td>Tecnólogo en Sistemas</td>
+       <td>2009</td>
+     </tr>
+     <tr>
+        <td>Colegio Industrial</td>
+        <td>Bachiller Académico</td>
+        <td>2003</td>
+    </tr>
+  </table >
+  <br>
+  <hr>
+  <br>
+</section>
+
+<section id="contacto">
+    <form class="form_container">
+      <fieldset>   <!-- marco del formulario-->
+       <legend> Datos de contacto</legend> <!-- titulo del formulario-->
+          <h2>Formulario de contacto</h2>
+          <label for="nombre"> * Nombre:</label>
+          <input 
+                type="text"
+                id="nombre" 
+                name ="nombre" 
+                required>
+          <label for="email">* Email:</label>
+          <input 
+                type="email" 
+                id="email" 
+                name ="email"
+                required>
+          <label for="mensaje">Mensaje</label>
+          <textarea 
+                id="mensaje" 
+                name="mensaje" 
+                rows="6"
+          ></textarea>
+          <p>¿Cuál es tu género?</p>
+
+<label>
+     <input 
+      type="radio"
+      name="genero" 
+     value="masculino">
+     Masculino
+</label>
+
+<label>
+      <input 
+      type="radio" 
+      name="genero" 
+      value="femenino">
+     Femenino
+</label>
+<label>
+  <input 
+  type="radio" 
+  name="genero"
+  value="otro">
+  Otro
+</label>
+          <label>País</label>
+          <select name="pais" id="pais" required=""> <!--etiqueta desplegable-->
+            <option disabled="" selected= "">Seleccione tu país</option>
+            <option value="co">Colombia</option>
+            <option value="ar">Argentina</option>
+            <option value="ch">Chile</option>
+            <option value="pe">Perú</option>
+            <option value="es">España</option>
+            <option value="eu">Estados Unidos</option>
+            <option value="me">México</option>
+            <option value="ve">Venezuela</option>
+          </select>
+
+     <label for="fecha">Fecha de nacimiento:</label>
+     <input type="date" 
+            id="fecha"
+            name="fecha" 
+            required>     
+      <button type="submit">Enviar</button>
+      </fieldset>  
+    </form>
+</section>
+
+<footer >
+    <p>© 2025 Javier Vera Ramirez. Todos los derechos reservados.</p>
+    
+ </footer>
+</body>
+</html>

@@ -1,0 +1,58 @@
+
+    body {
+      background-color: #f4f4f4;
+      color: black;
+      font-family: Arial, sans-serif;
+      padding :20px; 
+    }
+    h1, h2, p, footer {
+      text-align: center;
+    }
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+    table {
+      width: 50%;
+      margin: 0 auto;
+      border-collapse: collapse; 
+    }
+    td {
+      padding: 10px; /* espacio entre celdas */
+      text-align: center;
+    }
+    label {
+      display: block;  
+      margin: 10px 0 5px; /*margen lado izq*/
+      font-style: italic;
+      font-weight: bold; /* negrilla*/
+    }
+    input, textarea, select {
+      width: 60%; /* ancho completo */
+      padding: 10px; /* espacio interno */
+      margin-bottom: 10px; /* espacio entre campos */
+      border: 1px solid #ccc; /* borde gris claro */
+      border-radius: 4px; /* bordes redondeados */
+    }
+  .form_container {
+    max-width: 400px;   /* ancho máximo del formulario */
+    margin: auto;      /* centrado del formulario */
+    padding: 20px;     /* espacio interno */
+    background: #f9f9f9;
+    border-radius: 10px;    /* bordes redondeados */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* sombra sutil */
+  }
+  button {
+    margin-top: 20px; /* espacio arriba del botón */
+    padding: 10px 20px;   /* espacio interno del botón */
+    font-size: 16px; /* tamaño de fuente del botón */
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;  /* cursor de mano al pasar por encima */  
+  }
+
+  button:hover { /* efecto al pasar el mouse */ 
+    background-color: #0056b3;
+  }
