@@ -1,0 +1,105 @@
+
+   
+    .contenedor-header {
+  
+  align-items: center;
+  justify-content: flex-start; /* alinea a la izquierda, lo manipul fila o columna*/
+  gap: 20px;      /* espacio entre imagen y texto */
+  background-color: #004e89;
+  color: white;
+  padding: 20px;    /* espacio interno */
+  border-radius: 10px; /* bordes redondeados */ 
+}
+
+.contenedor-header img {
+  width: 120px;
+  height: 120px;
+  border-radius: 60%; /* forma circular */
+  object-fit: cover;
+  border: 3px solid white;
+}
+    body {
+      background-color: #f4f4f4;
+      color: black;
+      font-family: Arial, sans-serif;
+      padding :20px; 
+    }
+    h1, h2, p{
+      text-align: center;
+    }
+    img {
+      display: block;
+      margin: 0 auto;
+    }
+    table {
+      width: 50%;
+      margin: 0 auto;
+      border-collapse: collapse; 
+    }
+    td {    
+      border: 1px solid red; /* borde de celdas */
+      padding: 10px; /* espacio entre celdas */
+      text-align: center;
+    }
+    #lab_fec_nac  /* ejemplo de selector de id */
+    {
+      display: block;  
+      margin: 10px 0 5px; /* margen lado izq */
+      font-style: italic;
+      color: red;
+    }
+    label {
+      display: block;  
+      margin: 10px 0 5px; /*margen lado izq*/
+      font-style: italic;
+      font-weight: bold; /* negrilla*/
+    }
+    input, textarea, select {
+      width: 60%; /* ancho completo */
+      padding: 10px; /* espacio interno */
+      margin-bottom: 10px; /* espacio entre campos */
+      border: 1px solid #ccc; /* borde gris claro */
+      border-radius: 4px; /* bordes redondeados */
+    }
+  .form_container {   /* 2 ejemplo selector de clase */
+    max-width: 400px;   /* ancho máximo del formulario */
+    margin: auto;      /* centrado del formulario */
+    padding: 20px;     /* espacio interno */
+    background: #f9f9f9;
+    border-radius: 10px;    /* bordes redondeados */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); /* sombra sutil */
+  }
+  button {
+    margin-top: 20px; /* espacio arriba del botón */
+    padding: 10px 20px;   /* espacio interno del botón */
+    font-size: 16px; /* tamaño de fuente del botón */
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;  /* cursor de mano al pasar por encima */  
+  }
+
+  button:hover { /* efecto al pasar el mouse */ 
+    background-color: #0056b3;
+  }
+  table, th, td {
+    border: 1px solid black; /* borde de la tabla */
+    
+  }
+     th, td{
+      padding-top: 10px; /* espacio interno de celdas */
+      padding-bottom: 10px; /* espacio interno de celdas */
+      padding-left: 20px; /* espacio interno de celdas */
+      padding-right: 30px; /* espacio interno de celdas */
+      text-align: center; /* centrado del texto */   
+      color: purple; /* color del texto */    
+
+     }
+      footer{  
+      background-color: #004e89;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  
