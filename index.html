@@ -2,18 +2,21 @@
 <html lang ="es">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--mejor visualiz en móviles-->
   <title>Mi hoja de vida</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <h1>Hoja de vida</h1>
-     <h1>Javier Vera Ramirez</h1>
-     <h2>+57 3238295230 | veraadsi123@gmail.com | <a href="https://www.linkedin.com/feed/">www.linkedin</a> | Colombia</h2> 
-      
-     <img src="images/javiervera1.jpg" alt="Foto de Vera" width="10%" height="10%">
-     <b> texto en negrilla con b</b><br>
-     <strong> texto en negrilla con importancia semántica/m para el navegador</strong>
-
+  <header>
+  <div class="contenedor-header">
+    <img src="images/javiervera1.jpg" alt=" Foto de Javier Vera ">
+    <div>
+      <h1>Javier Augusto Vera Ramírez</h1>
+      <p>Desarrollador Web en formación</p>
+    </div>
+  </div>
+</header>
+ 
      <nav>  <!-- para crear barra izquierda-->
          <ol>
             <li><a href="#acerca">Acerca de mi</a></li>
@@ -66,14 +69,20 @@
  
   <hr>      <!-- etiq para crear linea horizontal-->
   <section id="formacion">
-  <h2> Formación académica</h2>
+  <h2> Formación Académica</h2>
   
 <table>
+   
      <tr>
        <th>Institución</th>
        <th>Título Obtenido</th>
        <th>Año</th>
      </tr>
+     <tr>
+        <td>Sena</td>
+        <td>Curso corto</td>
+        <td>2010</td>
+    </tr>
      <tr>
        <td>SENA</td>
        <td>Tecnólogo en Sistemas</td>
@@ -84,7 +93,8 @@
         <td>Bachiller Académico</td>
         <td>2003</td>
     </tr>
-  </table >
+     
+  </table>
   <br>
   <hr>
   <br>
@@ -150,7 +160,7 @@
             <option value="ve">Venezuela</option>
           </select>
 
-     <label for="fecha">Fecha de nacimiento:</label>
+     <label id="lab_fec_nac" for="fecha">Fecha de nacimiento:</label>
      <input type="date" 
             id="fecha"
             name="fecha" 
